@@ -8,6 +8,9 @@
   "bin": {
     "turborepo-remote-cache": "./build/cli.js"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prebuild": "pnpm lint && rimraf ./build",
