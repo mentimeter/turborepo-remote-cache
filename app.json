@@ -1,0 +1,11 @@
+{
+  "environments": {
+    "review": {
+      "buildpacks": [
+        {
+          "url": "https://github.com/unfold/heroku-buildpack-pnpm.git"
+        }
+      ]
+    }
+  }
+}
